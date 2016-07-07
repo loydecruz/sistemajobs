@@ -1,0 +1,296 @@
+*, *:before, *:after {
+
+  box-sizing: border-box;
+
+  z-index: 9999; /* número máximo é 9999 */
+
+}
+
+html {
+
+  overflow-y: scroll;
+
+}
+
+
+body {
+
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+a {
+
+  text-decoration: none; 
+  color: gray;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+
+}
+
+a:hover {
+
+  color: #87CEFA;
+
+}
+
+/*//////////CSS DO LOGIN//////////*/
+.formulario {
+  
+  background:white;
+  padding: 40px;
+  max-width: 400px;
+  margin: 60px auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px 6px rgba(19, 35, 47, 0.3);
+
+}
+
+h1 {
+  text-align: center;
+  color: #00BFFF;
+  font-weight: bold;
+  margin: 0 0 40px;
+  font-size: 45px;
+}
+
+input,textarea {
+
+  /*overflow:auto
+  font:inherit;margin:0*/
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 2px solid #a0b3b0;
+  color: gray;
+  border-radius: 5px;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+/* AQUI MUDA A COR DAS BARRAS DO FORMULÁRIO*/
+
+input:focus, textarea:focus {
+  outline: 3;
+  border-color: white;
+}/*----------------------------------------*/
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.barLogin {
+
+  position: relative;
+  margin-bottom: 40px;
+
+}
+
+.botaoLog {
+
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #00BFFF;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.botaoLog:hover, .botaoLog:focus {
+  background: #87CEFF;
+  opacity:0.8;
+}
+
+.botaoLog-bloqueioLog {
+  display: block;
+  width: 30%;
+}
+
+.esqueceuSenha {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.botaoCad {
+  
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #00BFFF;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.botaoCad a{ 
+  
+  color:white;
+
+ }
+
+.botaoCad:hover, .botaoCad:focus {
+  background: #87CEFF;
+  opacity:0.9;
+}
+
+.botaoCad-bloqueioCad {
+  display: block;
+  width: 30%;
+}
+/*//////////AQUI FINALIZA O CSS DO LOGIN//////////*/
+
+
+
+
+/*//////////CSS DO CADASTRO PROFISSIONAL E DO USUARIO//////////*/
+.formulario #cadProfissional{
+
+  display:none;
+
+}
+
+.formulario #cadUsuario{
+
+  display:none;
+
+}
+
+.barCadastro {
+
+  position: relative;
+  margin-bottom: 40px;
+
+}
+
+.barLado-Lado:after {
+
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.barLado-Lado > div {
+
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+
+}
+
+.barLado-Lado > div:last-child {
+
+  margin: 0;
+
+}
+
+.botaoFormulario > div:last-child {
+  display: none;
+}
+
+.botaoFormulario {
+
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+
+}
+
+.botaoFormulario:after {
+
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.botaoFormulario li a {
+
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: #00BFFF;
+  color: white;
+  font-size: 20px;
+  float: right;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+
+}
+
+.botaoFormulario li a:hover {
+
+  background: #87CEFA;
+  color: #ffffff;
+
+}
+
+.botaoFormulario .active a {
+
+  background: #00BFFF;
+  color: #ffffff;
+
+}
+
+
+
+
+/*//////////CSS DO CONTATO//////////*/
+
+
+
+
+.barContato {
+
+  position: relative;
+  margin-bottom: 40px;
+
+}
+
+.botaoCont {
+
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #00BFFF;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.botaoCont:hover, .botaoCont:focus {
+  background: #87CEFF;
+  opacity:0.8;
+}
+
+.botaoCont-bloqueioCont {
+  display: block;
+  width: 30%;
+}

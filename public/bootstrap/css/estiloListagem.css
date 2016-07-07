@@ -1,0 +1,54 @@
+.team-member{
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	width:30%;
+	background:#6C7B8B;
+	border-radius:55px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	box-shadow: 10px 10px 10px #CDC9C9 ;
+}
+
+.team-member:hover{
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	width:30%;
+	background:#104E8B;
+	border-radius:55px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;   
+}
+.team-member img{
+	margin:0 auto;
+	border:7px solid #fff;
+}
+
+.team-member .p1{
+	margin-top:0;
+	font-size: 20px;
+	color:white;
+}
+
+.team-member .p2{
+	margin-top:0;
+	font-size: 16px;
+	color:#E0FFFF;
+}
+
+.team-member .p3{
+	margin-top:0;
+	font-size: 14px;
+	color:#E0FFFF;
+}

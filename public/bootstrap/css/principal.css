@@ -1,0 +1,183 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0px;
+    margin-top: -50px;
+    padding: 0px;
+
+}
+
+/*/////////////CSS DA LOGOTIPO/////////////*/
+#logotipo {
+    display: inline-block;
+    float: left;
+    color: white;
+    width:0%;
+    height:0%;
+    position:relative;
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+/*/////////////CSS DA LOGOTIPO ACABA AQUI/////////////*/
+
+
+
+
+/*/////////////CSS DO CABEÇALHO/////////////*/
+header {
+
+    width: 100%;
+    
+}
+
+header nav {
+
+    background-color:white;
+    z-index: 1000;
+    max-width: 2000px;
+    width: 100%;
+    margin: 2px auto;
+}
+
+header nav ul {
+
+    overflow: hidden;
+    list-style: none;
+    margin: -20px;
+
+}
+
+header nav ul li {
+
+    float: right;
+    left: 100%;
+    display: block;
+
+}
+
+header nav ul li a:hover {
+
+    text-decoration: none;
+    background-color:;
+    padding-top: 50px;
+    color: #104E8B; /*Muda a cor da font dentro do 'hover'*/
+
+}
+
+header nav ul li a{
+
+    display: block;
+    color: #6C7B8B;
+    text-shadow: 3px 1px 5px gray;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 60px;
+    padding-bottom: 50px;
+    transition: background-color 1s;
+    font-family:"century gothic";
+    font-size:18px;
+
+}
+
+header nav ul li a span {
+
+    margin-right: 10px;
+
+}
+/*/////////////CSS DO CABEÇALHO ACABA AQUI/////////////*/
+
+
+
+
+/*/////////////CSS DO BANNER/////////////*/
+#slide{ 
+
+    z-index: 1000;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0px auto;
+
+ }
+ /*/////////////CSS DO BANNER ACABA AQUI/////////////*/
+
+
+
+
+/*/////////////CSS DA MSG DO BANNER/////////////*/
+.msgBanner {
+
+    position: absolute;
+    text-align: left;
+    left: 12%;
+    line-height: 1;
+    top: 50%;
+    margin-top: -100px;
+
+}
+.msgBanner h1{
+
+    font-family:"century gothic"; 
+    padding-bottom: 20px;
+    padding-top: -30px;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.msgBanner h2{
+    
+    font-family:"century gothic"; 
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+/*/////////////CSS DA MSG DO BANNER ACABA AQUI/////////////*/    
+
+
+
+
+/*/////////////CSS DO RODAPÉ/////////////*/
+footer#rodape{ 
+    
+    clear:both;
+    border-top:1px solid black;
+    background:gray; 
+
+}
+
+footer#rodape p{ 
+
+  text-align:center;
+  padding-top:-20px;
+  padding-bottom:50px;
+  color:white;
+  
+ } 
+
+ footer#rodape p a{ 
+
+  text-align:center;
+  padding-top:-20px;
+  padding-bottom:50px;
+  color: #BBFFFF;
+  text-decoration:none;
+  
+ }
+ /*/////////////CSS DO RODAPÉ ACABA AQUI/////////////*/ 
