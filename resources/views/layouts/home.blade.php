@@ -62,5 +62,17 @@
             @yield('content')
         </div>
 
+		    <footer id="footer">
+      <ul class="icons">
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+      </ul>
+
+      <ul class="copyright">
+        <li>&copy;2016</li><li>Design: <a href="#">9Pixouls</a></li>
+      </ul>
+    </footer>
+		
     </body>
 </html>
