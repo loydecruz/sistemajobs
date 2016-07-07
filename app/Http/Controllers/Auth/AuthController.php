@@ -48,18 +48,18 @@ protected $redirectPath = '/user';
         ];
 
         $messages = [
-            'name.required' => 'El campo es requerido',
-            'name.min' => 'El mínimo de caracteres permitidos son 3',
-            'name.max' => 'El máximo de caracteres permitidos son 16',
-            'name.regex' => 'Sólo se aceptan letras',
-            'email.required' => 'El campo es requerido',
-            'email.email' => 'El formato de email es incorrecto',
-            'email.max' => 'El máximo de caracteres permitidos son 255',
-            'email.unique' => 'El email ya existe',
-            'password.required' => 'El campo es requerido',
-            'password.min' => 'El mínimo de caracteres permitidos son 6',
-            'password.max' => 'El máximo de caracteres permitidos son 18',
-            'password.confirmed' => 'Los passwords no coinciden',
+            'name.required' => ' O campo é obrigatório',
+            'name.min' => 'O número mínimo de caracteres permitido é de 3',
+            'name.max' => 'O número máximo de caracteres permitidos são 16',
+            'name.regex' => 'Somente letras são aceitas',
+            'email.required' => 'O campo é obrigatório',
+            'email.email' => 'O formato de e-mail está incorreto',
+            'email.max' => 'O número máximo de caracteres permitidos são 255',
+            'email.unique' => 'O e-mail já existe',
+            'password.required' => 'O campo é obrigatório',
+            'password.min' => 'O número máximo de caracteres permitidos são 6',
+            'password.max' => 'O número máximo de caracteres permitidos são 18',
+            'password.confirmed' => 'As senhas não são iguais',
         ];
 
         $validator = Validator::make($request->all(), $rules, $messages);
@@ -104,9 +104,9 @@ protected $redirectPath = '/user';
             ];
 
             $messages = [
-                'email.required' => 'El campo email es requerido',
-                'email.email' => 'El formato de email es incorrecto',
-                'password.required' => 'El campo password es requerido',
+                'email.required' => 'O campo de e-mail é necessário',
+                'email.email' => 'O formato de e-mail está incorreto',
+                'password.required' => 'O campo de senha é necessário',
             ];
 
             $validator = Validator::make($request->all(), $rules, $messages);
@@ -114,7 +114,7 @@ protected $redirectPath = '/user';
             return redirect('auth/login')
             ->withErrors($validator)
             ->withInput()
-            ->with('message', 'Error al iniciar sesión');
+            ->with('message', 'Erro ao iniciar a sessão');
         }
     }
 
