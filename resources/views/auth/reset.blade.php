@@ -1,10 +1,10 @@
 @extends('layouts.home')
 
 @section('content')
- <h1>Resetear el password</h1>
+ <h1>Trocar senha</h1>
  @if (count($errors) > 0)
   <div class="alert alert-danger">
-   Los datos introducidos en el formulario son incorrectos.
+   Os dados estão incorretos.
   </div>
  @endif
  <hr />

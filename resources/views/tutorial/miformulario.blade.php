@@ -5,7 +5,7 @@
 
 @section('content')
 
-<h1>Mi Formulario</h1>
+<h1>Formulario</h1>
 
 <div class="text-success" id='result'>
     @if(Session::has('message'))
@@ -15,7 +15,7 @@
 
 <form method="post" action="{{url('home/validarmiformulario')}}" id='form'>
     <div class="form-group">
-        <label for="nombre">Nombre: </label>
+        <label for="nombre">Nome: </label>
         <input type="text" name="nombre" class="form-control" value="{{Input::old('nombre')}}" />
         <div class="text-danger" id='error_nombre'>{{$errors->formulario->first('nombre')}}</div>
     </div>
