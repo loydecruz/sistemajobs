@@ -6,4 +6,4 @@
     <button type="submit">Enviar</button>
 </form>
 
-Valor del campo name: {{$name}}
+Nome: {{$name}}
